@@ -1,6 +1,3 @@
-default[:apt][:proxy] = true
-default[:apt][:proxy_host] = "10.0.1.10"
-
 default[:jetty][:prefix] = "/opt"
 default[:jetty][:path] = "/opt/jetty"
 default[:jetty][:listen_ports] = "8080"
