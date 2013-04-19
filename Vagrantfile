@@ -78,6 +78,7 @@ Vagrant.configure("2") do |config|
     }
 
     chef.run_list = [
+      "recipe[minitest-handler::default]",
       "recipe[search_engine_solr::default]"
     ]
   end
